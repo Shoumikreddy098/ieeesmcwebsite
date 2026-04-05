@@ -55,7 +55,7 @@ const dignitaries: Dignitary[] = [
     name: "Dr. S. Sreenatha Reddy",
     designation: "Director of GNITC",
     department: "Administration",
-    image: "/directoritc.jpeg",
+    image: "/directoritc.png",
     bio: "Visionary academic leader with 29+ years of experience, driving innovation and excellence at GNI.",
     achievements: ["29+ years of experience in academia, research, and industry",
     "Published 150+ research papers & multiple patents",
@@ -260,7 +260,7 @@ export default function DignitariesPage() {
               >
                 <div className="h-32 w-32 overflow-hidden rounded-2xl">
                   <img
-                    src="/directoritc.jpeg"
+                    src="/directoritc.png"
                     alt="Dr. S. Sreenatha Reddy"
                     className="h-full w-full object-cover"
                     crossOrigin="anonymous"
