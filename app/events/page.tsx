@@ -76,7 +76,7 @@ const events: Event[] = [
   time: "10:00 AM - 4:00 PM",
   location: "R&D Block, GNITC",
   type: "conference",
-  image: "/TechX1.png",
+  image: "/techx1.png",
   attendees: 120,
 },
 
