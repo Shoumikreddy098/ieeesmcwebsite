@@ -37,7 +37,7 @@ interface Member {
 const members: Member[] = [
   // Current Team - Core
  {
-    id: "11",
+    id: "101",
     name: "Dhulipala Shanmukha Rajya Praneeth",
     role: "Chair",
     category: "core",
@@ -124,7 +124,7 @@ const members: Member[] = [
   {
     id: "8",
     name: "MARADANA HIMATEJ ",
-    role: "Social Media Lead",
+    role: "Volunteer Lead",
     category: "leads",
     image: "/himatej.png",
     branch: "CSE-CyberSecurity",
@@ -165,7 +165,7 @@ const members: Member[] = [
   },
   // Current Team - Volunteers
 
-  // Previous Year Teams
+  // Previous Year 2025 Team
     {
     id: "1",
     name: "Syed Manzoor",
@@ -375,6 +375,77 @@ const members: Member[] = [
     email: "24WJ1A6725@gniindia.org",
     social: { linkedin: "", github: ""},
     year: "2025",
+  },
+
+  {
+    id: "101",
+    name: "Syed Manzoor",
+    role: "Chair",
+    category: "core",
+    image: "/manzoor.jfif",
+    branch: "CSE-CyberSecurity",
+    yearOfStudy: "3rd Year",
+    ieeeId: "100230798",
+    contact: "+91 73307 36379",
+    email: "23WJ1A6285@gniindia.org",
+    social: { linkedin: "https://www.linkedin.com/in/syed-manzoor-2a8882315/", github: "https://github.com/syed-manzoor/"},
+    year: "2024"
+  },
+  {
+    id: "202",
+    name: "Shoumik Reddy",
+    role: "Vice-Chair",
+    category: "core",
+    image: "/shoumik.jpeg",
+    branch: "CSE-CyberSecurity",
+    yearOfStudy: "3rd Year",
+    ieeeId: "100244428",
+    contact: "+91 70139 18658",
+    email: "Shoumikreddy098@gmail.com",
+    social: { linkedin: "https://www.linkedin.com/in/shoumikreddy/", github: ""},
+    year: "2024",
+  },
+  {
+    id: "303",
+    name: "Jayant Sharma",
+    role: "Secretary",
+    category: "core",
+    image: "/jayant.jpeg",
+    branch: "CSE-DataScience",
+    yearOfStudy: "3rd Year",
+    ieeeId: "100319637",
+    contact: "+91 93901 26173",
+    email: "23WJ1A6731@gniindia.org",
+    social: { linkedin: "https://www.linkedin.com/in/jayant-sharma-887b58293/", github: "https://github.com/Jayant2901"},
+    year: "2024",
+  },
+  {
+    id: "404",
+    name: "Mohammed Sameer",
+    role: "Treasurer",
+    category: "core",
+    image: "/sameer.jfif",
+    branch: "CSE-CyberSecurity",
+    yearOfStudy: "3rd Year",
+    ieeeId: "100617875",
+    contact: "+91 63041 68708",
+    email: "23WJ1A6255@gniindia.org",
+    social: { linkedin: "https://www.linkedin.com/in/mohammed-sameer-550972301/", github: ""},
+    year: "2024",
+  },
+  {
+    id: "505",
+    name: "Arnav Adurthi",
+    role: "Webmaster",
+    category: "core",
+    image: "/arnav.jfif",
+    branch: "CSE-DataScience",
+    yearOfStudy: "3rd Year",
+    ieeeId: "100606378",
+    contact: "+91 90522 22985",
+    email: "23WJ1A6705@gniindia.org",
+    social: { linkedin: "https://www.linkedin.com/in/arnav-adurthi-93b594302/", github: ""},
+    year: "2024",
   },
 ]
 
