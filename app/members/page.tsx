@@ -46,7 +46,7 @@ const members: Member[] = [
     yearOfStudy: "2nd Year",
     ieeeId: "102279325",
     contact: "+91 94411 41382",
-    email: "praneeth.sep21@gmail.com",
+    email: "praneeth.dhulipala24@gmail.com",
     social: { linkedin: "https://www.linkedin.com/in/praneeth-dhulipala-1206343b7/", github: "https://github.com/PraneethDhulipala24"},
     year: "current",
   },
