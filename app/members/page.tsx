@@ -210,7 +210,7 @@ const members: Member[] = [
     name: "Purre Tanisha Valarie",
     role: "PR Head",
     category: "leads",
-    image: "/tanisha.jfif",
+    image: "/tanisha.jpeg",
     branch: "CSE-CyberSecurity",
     yearOfStudy: "2nd Year",
     ieeeId: "102273291",
