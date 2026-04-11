@@ -138,33 +138,6 @@ export function Navbar() {
 
           {/* Actions */}
           <div className="flex items-center gap-3">
-            {mounted && (
-              <MagneticButton strength={0.4}>
-                <motion.button
-                  whileHover={{ scale: 1.1 }}
-                  whileTap={{ scale: 0.9 }}
-                  onClick={() => setTheme(resolvedTheme === "dark" ? "light" : "dark")}
-                  className="relative flex h-10 w-10 items-center justify-center rounded-xl bg-secondary text-secondary-foreground transition-colors hover:bg-secondary/80 overflow-hidden"
-                  aria-label="Toggle theme"
-                >
-                  <AnimatePresence mode="wait">
-                    <motion.div
-                      key={resolvedTheme}
-                      initial={{ y: -30, opacity: 0, rotate: -90 }}
-                      animate={{ y: 0, opacity: 1, rotate: 0 }}
-                      exit={{ y: 30, opacity: 0, rotate: 90 }}
-                      transition={{ duration: 0.3 }}
-                    >
-                      {resolvedTheme === "dark" ? (
-  <Sun className="h-5 w-5" />
-) : (
-  <Moon className="h-5 w-5" />
-)}
-                    </motion.div>
-                  </AnimatePresence>
-                </motion.button>
-              </MagneticButton>
-            )}
             
             <MagneticButton strength={0.3}>
               <motion.div
